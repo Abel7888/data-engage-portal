@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -36,6 +37,24 @@ npm i
 npm run dev
 ```
 
+## Deploying to GitHub Pages
+
+To deploy this project to GitHub Pages, follow these steps:
+
+1. Push your code to a GitHub repository.
+2. Make sure your repository is set up for GitHub Pages (Settings > Pages).
+3. Run the following commands:
+
+```sh
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+The site will be deployed to: https://yourusername.github.io/data-engage-portal/
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
@@ -61,6 +80,8 @@ This project is built with .
 - Tailwind CSS
 
 ## How can I deploy this project?
+
+You can deploy this project using Lovable's built-in deployment or through GitHub Pages as described above.
 
 Simply open [Lovable](https://lovable.dev/projects/fd85cff2-186c-4841-9cea-74831687c819) and click on Share -> Publish.
 

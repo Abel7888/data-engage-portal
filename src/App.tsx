@@ -12,10 +12,13 @@ import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
 
+// Get the base URL from the environment or use a default
+const basename = import.meta.env.BASE_URL;
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <Routes>
