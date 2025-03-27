@@ -1,4 +1,3 @@
-
 # Welcome to your Lovable project
 
 ## Project info
@@ -53,7 +52,7 @@ npm run build
 npm run deploy
 ```
 
-The site will be deployed to: https://yourusername.github.io/data-engage-portal/
+The site will be deployed to: https://newtest.github.io/
 
 **Edit a file directly in GitHub**
 

@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/data-engage-portal/", // Add this line for GitHub Pages deployment
+  base: "/", // Updated base URL for newtest.github.io
   server: {
     host: "::",
     port: 8080,
