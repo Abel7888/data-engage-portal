@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // Updated base URL for emergingtechs.digital
+  base: "/", // Base URL for emergingtechs.digital
   server: {
     host: "::",
     port: 8080,
