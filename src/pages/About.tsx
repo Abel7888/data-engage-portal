@@ -21,7 +21,7 @@ const About = () => {
         <div className="container mx-auto px-4 md:px-6 relative">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-blue/10 text-blue mb-6 animate-fade-in">
-              About Data Shield Partners
+              About Data Shield Partners testing this lets check
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-slide-up">
               Connecting Industry Leaders with Innovation
